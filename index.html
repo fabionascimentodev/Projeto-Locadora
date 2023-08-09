@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>FABIO FILMES</title>
+  <script src="view/javascript/modal.js"></script>
+  <script src="view/javascript/sobre.js"></script>
+  <script src="view/javascript/sinopse.js"></script>
+  <link rel="stylesheet" type="text/css" href="view/css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>FABIO FILMES</h1>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Filmes</a></li>
+        <li><a href="../categorias.html">Categorias</a></li>
+        <li><a href="#" onclick="abrirSobre()">Sobre</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="destaques">
+      <h2>Filmes em Destaque</h2>
+      <div class="filme">
+        <img src="view/imagens/missao.jpg" alt="Missão Impossível : Acerto de Contas">
+        <h3>Missao Impossivel : Acerto de Contas</h3>
+        <a class="botao" onclick="abrirSinopse()">Leia a sinopse</a>
+        <a class="botao" onclick="acao()">Assistir</a>
+      </div>
+      <div class="filme2">
+        <img src="view/imagens/velozes.jpg" alt="Velozes e Furiosos 10"><br><br>
+        <h3>Velozes e Furiosos 10</h3>
+        <a class="botao" onclick="abrirSinopse1()">Leia a sinopse</a>
+        <a class="botao" onclick="acao1()">Assistir</a>
+      </div>
+      <div class="filme3">
+        <img src="view/imagens/flash.jpg" alt="Flash"><br><br>
+        <h3>Flash</h3>
+        <a class="botao" onclick="abrirSinopse2()">Leia a sinopse</a>
+        <a class="botao" onclick="acao2()">Assistir</a>
+      </div>
+    </section>
+
+    <section id="filmes">
+      <h2>Todos os Filmes</h2>
+      <div class="fil0">
+        <img src="view/imagens/missao.jpg" alt="Missão Impossível">
+        <h3>Missao Impossivel : Acerto de Contas</h3>
+        <a href="#" class="Botao">Assistir</a>
+      </div><br>
+      <div class="fil1">
+        <img src="view/imagens/velozes.jpg" alt="Velozes e Furiosos 10">
+        <h3>Velozes e Furiosos 10</h3>
+        <a href="#" class="Botao">Assistir</a>
+      </div>
+      <div class="fil2">
+        <img src="view/imagens/flash.jpg" alt="Flash">
+        <h3>Flash</h3>
+        <a href="#" class="Botao">Assistir</a>
+      </div>
+      <div class="fil3">
+        <img src="view/imagens/a-era-de-ouro-poster-desktop-5202c.jpg" alt="A era do ouro">
+        <h3>A era do ouro</h3>
+        <a href="#" class="Botao">Assistir</a>
+      </div>
+      <div class="fil4">
+        <img src="view/imagens/barbie.jpg" alt="Barbie">
+        <h3>Barbie</h3>
+        <a href="#" class="Botao">Assistir</a>
+      </div>
+      <div class="fil5">
+        <img src="view/imagens/fale-comigo-poster-desktop-5172c.jpg" alt="Fale comigo">
+        <h3>Fale comigo</h3>
+        <a href="#" class="Botao">Assistir</a>
+      </div>
+      <div class="fil6">
+        <img src="view/imagens/loucas-em-apuros-poster-desktop-5089c.jpg" alt="Loucas em apuros">
+        <h3>Loucas em apuros</h3>
+        <a href="#" class="Botao">Assistir</a>
+      </div>
+      <div class="fil7">
+        <img src="view/imagens/missao-de-sobrevivencia-poster-desktop-5194c.jpg" alt="Missão de sobrevivência">
+        <h3>Missao de sobrevivencia</h3>
+        <a href="#" class="Botao">Assistir</a>
+      </div>
+      <div class="fil8">
+        <img src="view/imagens/muti-crime-e-poder-poster-desktop-5209c.jpg" alt="Muti crime e poder">
+        <h3>Muti crime e poder</h3>
+        <a href="#" class="Botao">Assistir</a>
+      </div>
+      <div class="fil9">
+        <img src="view/imagens/o-convento-poster-desktop-5193c.jpg" alt="O convento">
+        <h3>O convento</h3>
+        <a href="#" class="Botao">Assistir</a>
+      </div>
+      <div class="fil10">
+        <img src="view/imagens/oppenheimer-poster-desktop-5166c.jpg" alt="Oppenheimer">
+        <h3>Oppenheimer</h3>
+        <a href="#" class="Botao">Assistir</a>
+      </div>
+      <div class="fil11">
+        <img src="view/imagens/os-peludos-poster-desktop-5006c.jpg" alt="Os peludos">
+        <h3>Os Peludos</h3>
+        <a href="#" class="Botao">Assistir</a>
+      </div>
+      <div class="fil12">
+        <img src="view/imagens/perdida-poster-desktop-5148c.jpg" alt="Perdida">
+        <h3>Perdida</h3>
+        <a href="#" class="Botao">Assistir</a>
+      </div>
+      <div class="fil13">
+        <img src="view/imagens/portal.jpg" alt="O Portal secreto">
+        <h3>O Portal secreto</h3>
+        <a href="#" class="Botao">Assistir</a>
+      </div>
+      <div class="fil14">
+        <img src="view/imagens/o-protetor-capitulo-final-poster-desktop-5187c.jpg" alt="O Protetor">
+        <h3>O Protetor</h3>
+        <a href="#" class="Botao">Assistir</a>
+      </div><br>
+    </section>
+  </main>
+  <div class="modalSinopse">
+    <h1>Missao Impossivel : Acerto de Contas</h1>
+    <p>Ethan Hunt e sua equipe embarcam em sua missão mais perigosa: rastrear 
+      uma nova arma aterrorizante que ameaça toda a humanidade antes que caia 
+      em mãos erradas. Com o controle do futuro e o destino do mundo em jogo e 
+      as forças sombrias do passado de Ethan se aproximando, uma corrida mortal 
+      ao redor do globo começa. Confrontado por um inimigo misterioso e todo-poderoso, 
+      Ethan é forçado a considerar que nada pode importar mais do que sua missão – nem mesmo 
+      a vida daqueles com quem ele mais se importa.</p>
+  <p>Elenco: Tom Cruise, Simon Pegg, Rebecca Ferguson <br>
+      Duração: 155 min <br>
+      Diretor: Chistopher McQuarrie <br>
+      Distribuidora: Paramount <br>
+      Gênero: Ação <br>
+      Classificação: 14 Anos</p>
+    <span onclick="fecharSinopse()" class="fechar">&times;</span> 
+  </div>
+  <div class="modalSinopse1">
+    <h1>Velozes e Furiosos 10</h1>
+    <p>No décimo filme da série Velozes & Furiosos e último da nova trilogia (Velozes 8, 9 e 10), ao longo de muitas missões e contra probabilidades que pareciam impossíveis, Dom Toretto e sua família foram mais espertos e superaram todos os inimigos em seu caminho. Agora, eles devem enfrentar o adversário mais letal que já enfrentaram. Alimentada pela vingança, uma ameaça terrível emerge das sombras do passado para destruir o mundo de Dom e destruir tudo e todos que ele ama. Toretto então, comandando novamente a equipe de corredores mais conhecida do mundo, encara mais uma difícil missão sobre quatro rodas.</p>
+        <p>	Elenco: Vin Diesel, Jordana Brewster, Michelle Rodriguez, Charlize Theron, Chris 'Ludacris' Bridges, Nathalie Emmanuel, Sung Kang, Tyrese Gibson<br>
+            Duração: 140 min<br>
+            Diretor: Louis Leterrier<br>
+            Distribuidora: Universal<br>
+            Gênero: Ação <br>
+            Classificação: 14 Anos</p>
+    <span onclick="fecharSinopse1()" class="fechar">&times;</span> 
+  </div>
+  <div class="modalSinopse2">
+    <h1>Velozes e Furiosos 10</h1>
+    <p>The Flash é um dos filmes mais aguardados do ano! Depois dos eventos de Liga da Justiça, Barry Allen decide viajar no tempo para evitar o assassinato de sua mãe, pelo qual seu pai foi injustamente condenado à cadeia. O que ele não imaginava é que a sua atitude teria consequências catastróficas para o universo. Ao voltar no tempo, Allen se vê em um efeito borboleta e começa a viajar entre mundos diferentes do seu.</p>
+        <p>	Elenco: Ezra Miller, Ron Livingston, Kiersey Clemons, Michael Shannon, Antje Traue, Michael Keaton, Ray Fisher, Sasha Calle<br>
+            Duração: 140 min<br>
+            Diretor: Andy Muschietti<br>
+            Distribuidora: Warner Bros<br>
+            Gênero: Ação <br>
+            Classificação: 14 Anos</p>
+    <span onclick="fecharSinopse2()" class="fechar">&times;</span> 
+  </div>
+  <div class="modalSobre">
+    <h1>Nossa missão é desenvolver, amplificar e conectar!</h1>
+    <h1>Quem Somos?</h1>
+    <h4>Estudantes Desenvolverdores de Sistemas</h4>
+    <h4>Fabio Nascimento</h4>
+    <h4>Enrico Brasil</h4>
+    <h4>Lorena</h4>
+    <h4>Everson</h4>
+    <h1>Nossos Valores?</h1>
+    <h4>Sonhamos grande.</h4>
+    <h4>Somos ágeis, proativos e pioneiros.</h4>
+    <h4>Quebramos barreiras.</h4>
+    <h4>Respeitamos compromissos.</h4>
+    <span onclick="fecharSobre()" class="fechar">&times;</span>
+  </div>
+  <div class="modal">
+    <h1>Missao Impossivel : Acerto de Contas</h1>
+    <span onclick="fechar()" class="fechar">&times;</span>
+    <iframe width="860" height="515" src="https://www.youtube.com/embed/94ceNwopotk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+  <div class="modal1">
+    <h1>Velozes e Furiosos 10</h1>
+    <span onclick="fechar1()" class="fechar">&times;</span>
+    <iframe width="860" height="515" src="https://www.youtube.com/embed/8731p-PcavM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+  <div class="modal2">
+    <h1>Flash</h1>
+    <span onclick="fechar2()" class="fechar">&times;</span>
+    <iframe width="860" height="515" src="https://www.youtube.com/embed/xMbg-ZsFCCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+
+  <footer>
+    <p>© 2023 FABIO FILMES. Todos os direitos reservados.</p>
+  </footer>
+</body>
+
+</html>
