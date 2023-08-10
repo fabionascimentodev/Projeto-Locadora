@@ -1,3 +1,5 @@
+/* @import url(mediaQueries.css); */
+
 body {
   display: flex;
   justify-content: center;
@@ -13,12 +15,20 @@ body {
 }
 
 header {
-  width: 96.4%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   background-color: #000000;
   color: #fff;
   padding: 2.0rem;
   border-radius: 1.0rem;
   border: .4rem solid #3498db;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 nav {
@@ -48,6 +58,10 @@ nav ul li a {
 
 main {
   padding: 2.0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid red;
 }
 
 section {
@@ -61,13 +75,33 @@ h1 {
   text-align: center;
   font-size: 2.0rem;
 }
-.modalSobre h1{
+
+.modalSobre h1 {
   margin-top: 3.0rem;
   position: flex;
   color: white;
   text-align: center;
   font-size: 2.0rem;
 }
+
+/* #destaques, #filmes {
+  border: 1px solid  red;
+}
+
+#destaques {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#filmes {
+  display: grid;
+  align-self: center;
+}
+
+footer {
+  border: 1px solid red;
+} */
 
 h2 {
   color: white;
@@ -83,19 +117,22 @@ h3 {
   text-align: center;
 }
 
-h4{
+h4 {
   color: white;
   text-align: center;
 }
-p{
+
+p {
   text-align: center;
   color: white;
-  
+
 }
+
 .filme {
   width: 20rem;
   height: 29rem;
   margin-top: 2rem;
+  margin-left: 20rem;
   background-color: #ffffff;
   padding: 2.0rem;
   border-radius: .4rem;
@@ -106,7 +143,7 @@ p{
   width: 20rem;
   height: 29rem;
   margin-top: -33.6rem;
-  margin-left: 34rem;
+  margin-left: 55.9rem;
   background-color: #fff;
   padding: 2.0rem;
   border-radius: .4rem;
@@ -118,7 +155,7 @@ p{
   width: 20rem;
   height: 29rem;
   margin-top: -33.6rem;
-  margin-left: 65rem;
+  margin-left: 92rem;
   background-color: #fff;
   padding: 2.0rem;
   border-radius: .4rem;
@@ -135,7 +172,7 @@ p{
 
 .filme2 img {
   width: 100%;
-  max-width: 17.7rem;
+  max-width: 12.6rem;
   margin-bottom: .0rem;
   margin-left: 4.0rem;
 }
@@ -146,49 +183,64 @@ p{
   margin-bottom: .0rem;
   margin-left: 4.0rem;
 }
-.fil0 img{
+
+.fil0 img {
   margin-left: 4.0rem;
 }
-.fil1 img{
+
+.fil1 img {
   margin-left: 4.0rem;
 }
-.fil2 img{
+
+.fil2 img {
   margin-left: 4.0rem;
 }
-.fil3 img{
+
+.fil3 img {
   margin-left: 4.0rem;
 }
-.fil4 img{
+
+.fil4 img {
   margin-left: 4.0rem;
 }
-.fil5 img{
+
+.fil5 img {
   margin-left: 4.0rem;
 }
-.fil6 img{
+
+.fil6 img {
   margin-left: 4.0rem;
 }
-.fil7 img{
+
+.fil7 img {
   margin-left: 4.0rem;
 }
-.fil8 img{
+
+.fil8 img {
   margin-left: 4.0rem;
 }
-.fil9 img{
+
+.fil9 img {
   margin-left: 4.0rem;
 }
-.fil10 img{
+
+.fil10 img {
   margin-left: 4.0rem;
 }
-.fil11 img{
+
+.fil11 img {
   margin-left: 4.0rem;
 }
-.fil12 img{
+
+.fil12 img {
   margin-left: 4.0rem;
 }
-.fil13 img{
+
+.fil13 img {
   margin-left: 4.0rem;
 }
-.fil14 img{
+
+.fil14 img {
   margin-left: 4.0rem;
 }
 
@@ -228,7 +280,7 @@ p{
   width: 20rem;
   height: 29rem;
   margin-top: -34.7rem;
-  margin-left: 34rem;
+  margin-left: 28rem;
   background-color: #fff;
   padding: 2.0rem;
   border-radius: .4rem;
@@ -239,7 +291,7 @@ p{
   width: 20rem;
   height: 29rem;
   margin-top: -33.6rem;
-  margin-left: 65rem;
+  margin-left: 56rem;
   background-color: #fff;
   padding: 2.0rem;
   border-radius: .4rem;
@@ -250,7 +302,8 @@ p{
 .fil3 {
   width: 20rem;
   height: 29rem;
-  margin-top: 2rem;
+  margin-top: -33.4rem;
+  margin-left: 84rem;
   background-color: #ffffff;
   padding: 2.0rem;
   border-radius: .4rem;
@@ -261,8 +314,8 @@ p{
 .fil4 {
   width: 20rem;
   height: 29rem;
-  margin-top: -33.6rem;
-  margin-left: 34rem;
+  margin-top: -33.4rem;
+  margin-left: 112rem;
   background-color: #fff;
   padding: 2.0rem;
   border-radius: .4rem;
@@ -273,8 +326,7 @@ p{
 .fil5 {
   width: 20rem;
   height: 29rem;
-  margin-top: -33.6rem;
-  margin-left: 65rem;
+  margin-top: 2rem;
   background-color: #fff;
   padding: 2.0rem;
   border-radius: .4rem;
@@ -285,8 +337,9 @@ p{
 .fil6 {
   width: 20rem;
   height: 29rem;
-  margin-top: 2rem;
-  background-color: #ffffff;
+  margin-top: -33.4rem;
+  margin-left: 28rem;
+  background-color: #fff;
   padding: 2.0rem;
   border-radius: .4rem;
   border: 4px solid #3498db;
@@ -296,8 +349,8 @@ p{
 .fil7 {
   width: 20rem;
   height: 29rem;
-  margin-top: -33.6rem;
-  margin-left: 34rem;
+  margin-top: -33.4rem;
+  margin-left: 56rem;
   background-color: #fff;
   padding: 2.0rem;
   border-radius: .4rem;
@@ -308,9 +361,9 @@ p{
 .fil8 {
   width: 20rem;
   height: 29rem;
-  margin-top: -33.6rem;
-  margin-left: 65rem;
-  background-color: #fff;
+  margin-top: -33.4rem;
+  margin-left: 84rem;
+  background-color: #ffffff;
   padding: 2.0rem;
   border-radius: .4rem;
   border: 4px solid #3498db;
@@ -318,6 +371,18 @@ p{
 }
 
 .fil9 {
+  width: 20rem;
+  height: 29rem;
+  margin-top: -33.4rem;
+  margin-left: 112rem;
+  background-color: #fff;
+  padding: 2.0rem;
+  border-radius: .4rem;
+  border: 4px solid #3498db;
+
+}
+
+.fil10 {
   width: 20rem;
   height: 29rem;
   margin-top: 2rem;
@@ -328,23 +393,11 @@ p{
 
 }
 
-.fil10 {
-  width: 20rem;
-  height: 29rem;
-  margin-top: -33.6rem;
-  margin-left: 34rem;
-  background-color: #fff;
-  padding: 2.0rem;
-  border-radius: .4rem;
-  border: .4rem solid #3498db;
-
-}
-
 .fil11 {
   width: 20rem;
   height: 29rem;
-  margin-top: -33.6rem;
-  margin-left: 65rem;
+  margin-top: -33.4rem;
+  margin-left: 28rem;
   background-color: #fff;
   padding: 2.0rem;
   border-radius: .4rem;
@@ -355,8 +408,9 @@ p{
 .fil12 {
   width: 20rem;
   height: 29rem;
-  margin-top: 2rem;
-  background-color: #ffffff;
+  margin-top: -33.6rem;
+  margin-left: 56rem;
+  background-color: #fff;
   padding: 2.0rem;
   border-radius: .4rem;
   border: 4px solid #3498db;
@@ -366,9 +420,9 @@ p{
 .fil13 {
   width: 20rem;
   height: 29rem;
-  margin-top: -33.6rem;
-  margin-left: 34rem;
-  background-color: #fff;
+  margin-top: -33.4rem;
+  margin-left: 84rem;
+  background-color: #ffffff;
   padding: 2.0rem;
   border-radius: .4rem;
   border: 4px solid #3498db;
@@ -378,8 +432,8 @@ p{
 .fil14 {
   width: 20rem;
   height: 29rem;
-  margin-top: -33.6rem;
-  margin-left: 65rem;
+  margin-top: -33.4rem;
+  margin-left: 112rem;
   background-color: #fff;
   padding: 2.0rem;
   border-radius: .4rem;
@@ -388,10 +442,15 @@ p{
 }
 
 footer {
+  margin-top: -5rem;
   background-color: #333;
   color: #fff;
   padding: 1.0rem;
   text-align: center;
+}
+
+footer p {
+  font-size: 1.5rem;
 }
 
 .modal {
@@ -438,9 +497,10 @@ footer {
   animation-duration: 1000ms;
   border-radius: 1.0rem;
 }
-.modalSobre{
+
+.modalSobre {
   width: 750px;
-  height: 570px;
+  height: 600px;
   background-color: #333;
   border: 4px solid #3498db;
   position: fixed;
@@ -452,9 +512,10 @@ footer {
   animation-duration: 1000ms;
   border-radius: 1.0rem;
 }
-.modalSinopse{
+
+.modalSinopse {
   width: 750px;
-  height: 270px;
+  height: 330px;
   background-color: #333;
   border: 4px solid #3498db;
   position: fixed;
@@ -465,9 +526,27 @@ footer {
   animation: animate;
   animation-duration: 1000ms;
   border-radius: 1.0rem;
+  padding: .9rem;
 }
-.modalSinopse1{
+
+.modalSinopse1 {
   width: 750px;
+  height: 360px;
+  background-color: #333;
+  border: 4px solid #3498db;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  animation: animate;
+  animation-duration: 1000ms;
+  border-radius: 1.0rem;
+  padding: .9rem;
+}
+
+.modalSinopse2 {
+  width: 790px;
   height: 310px;
   background-color: #333;
   border: 4px solid #3498db;
@@ -479,20 +558,7 @@ footer {
   animation: animate;
   animation-duration: 1000ms;
   border-radius: 1.0rem;
-}
-.modalSinopse2{
-  width: 790px;
-  height: 270px;
-  background-color: #333;
-  border: 4px solid #3498db;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: none;
-  animation: animate;
-  animation-duration: 1000ms;
-  border-radius: 1.0rem;
+  padding: .9rem;
 }
 
 iframe {
@@ -524,3 +590,9 @@ span.fechar:hover {
     opacity: 0;
   }
 }
+/* 
+@media screen and (min-width: 1280px) {
+  header {  
+      width: 100%;
+  }
+} */
