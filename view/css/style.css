@@ -225,6 +225,7 @@ p {
 .fil14 img {
   margin-left: 3.5rem;
 }
+
 .fil15 img {
   margin-left: 3.5rem;
 }
@@ -428,6 +429,7 @@ p {
   border: 4px solid #3498db;
 
 }
+
 .fil15 {
   width: 20rem;
   height: 29rem;
@@ -439,6 +441,7 @@ p {
   border: 4px solid #3498db;
 
 }
+
 footer {
   width: 98.6%;
   height: 100%;
@@ -448,9 +451,6 @@ footer {
   color: #fff;
   padding: 1.0rem;
   text-align: center;
-  
-
-
 }
 
 footer p {
