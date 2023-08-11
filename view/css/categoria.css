@@ -20,6 +20,11 @@ header {
   border-radius: 1rem;
   border: 0.4rem solid #3498db;
 }
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 nav {
   margin-top: -1.5rem;
