@@ -28,6 +28,7 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+
 nav {
   font-size: 1.7rem;
 }
@@ -58,6 +59,7 @@ main {
   width: 96.6%;
   padding: 2.0rem;
   align-items: center;
+
 
 }
 
@@ -165,63 +167,66 @@ p {
 }
 
 .fil0 img {
-  margin-left: 4.0rem;
+  margin-left: 3.5rem;
 }
 
 .fil1 img {
-  margin-left: 4.0rem;
+  margin-left: 3.5rem;
 }
 
 .fil2 img {
-  margin-left: 4.0rem;
+  margin-left: 3.5rem;
 }
 
 .fil3 img {
-  margin-left: 4.0rem;
+  margin-left: 3.5rem;
 }
 
 .fil4 img {
-  margin-left: 4.0rem;
+  margin-left: 3.5rem;
 }
 
 .fil5 img {
-  margin-left: 4.0rem;
+  margin-left: 3.5rem;
 }
 
 .fil6 img {
-  margin-left: 4.0rem;
+  margin-left: 3.5rem;
 }
 
 .fil7 img {
-  margin-left: 4.0rem;
+  margin-left: 3.5rem;
 }
 
 .fil8 img {
-  margin-left: 4.0rem;
+  margin-left: 3.5rem;
 }
 
 .fil9 img {
-  margin-left: 4.0rem;
+  margin-left: 3.5rem;
 }
 
 .fil10 img {
-  margin-left: 4.0rem;
+  margin-left: 3.5rem;
 }
 
 .fil11 img {
-  margin-left: 4.0rem;
+  margin-left: 3.5rem;
 }
 
 .fil12 img {
-  margin-left: 4.0rem;
+  margin-left: 3.5rem;
 }
 
 .fil13 img {
-  margin-left: 4.0rem;
+  margin-left: 3.5rem;
 }
 
 .fil14 img {
-  margin-left: 4.0rem;
+  margin-left: 3.5rem;
+}
+.fil15 img {
+  margin-left: 3.5rem;
 }
 
 .botao {
@@ -250,7 +255,7 @@ p {
   width: 20rem;
   height: 29rem;
   margin-top: 2rem;
-  margin-left: -111.4rem;
+  margin-left: -85rem;
   background-color: #ffffff;
   padding: 2.0rem;
   border-radius: 1rem;
@@ -261,7 +266,7 @@ p {
   width: 20rem;
   height: 29rem;
   margin-top: -34.8rem;
-  margin-left: -56rem;
+  margin-left: -30rem;
   background-color: #fff;
   padding: 2.0rem;
   border-radius: 1rem;
@@ -271,7 +276,8 @@ p {
 .fil2 {
   width: 20rem;
   height: 29rem;
-  margin-top: -33.4rem;
+  margin-top: -33.6rem;
+  margin-left: 25rem;
   background-color: #fff;
   padding: 2.0rem;
   border-radius: 1rem;
@@ -282,8 +288,8 @@ p {
 .fil3 {
   width: 20rem;
   height: 29rem;
-  margin-top: -33.4rem;
-  margin-left: 55rem;
+  margin-top: -33.6rem;
+  margin-left: 80rem;
   background-color: #ffffff;
   padding: 2.0rem;
   border-radius: 1rem;
@@ -294,8 +300,8 @@ p {
 .fil4 {
   width: 20rem;
   height: 29rem;
-  margin-top: -33.4rem;
-  margin-left: 110.7rem;
+  margin-top: 2rem;
+  margin-left: -85rem;
   background-color: #ffffff;
   padding: 2.0rem;
   border-radius: 1rem;
@@ -306,9 +312,9 @@ p {
 .fil5 {
   width: 20rem;
   height: 29rem;
-  margin-top: 2rem;
-  margin-left: -111.4rem;
-  background-color: #ffffff;
+  margin-top: -33.5rem;
+  margin-left: -30rem;
+  background-color: #fff;
   padding: 2.0rem;
   border-radius: 1rem;
   border: 4px solid #3498db;
@@ -318,8 +324,8 @@ p {
 .fil6 {
   width: 20rem;
   height: 29rem;
-  margin-top: -33.4rem;
-  margin-left: -56rem;
+  margin-top: -33.7rem;
+  margin-left: 25rem;
   background-color: #fff;
   padding: 2.0rem;
   border-radius: 1rem;
@@ -330,8 +336,9 @@ p {
 .fil7 {
   width: 20rem;
   height: 29rem;
-  margin-top: -33.4rem;
-  background-color: #fff;
+  margin-top: -33.7rem;
+  margin-left: 80rem;
+  background-color: #ffffff;
   padding: 2.0rem;
   border-radius: 1rem;
   border: 4px solid #3498db;
@@ -341,11 +348,11 @@ p {
 .fil8 {
   width: 20rem;
   height: 29rem;
-  margin-top: -33.4rem;
-  margin-left: 55rem;
+  margin-top: 2rem;
+  margin-left: -85rem;
   background-color: #ffffff;
   padding: 2.0rem;
-  border-radius: .1rem;
+  border-radius: 1rem;
   border: 4px solid #3498db;
 
 }
@@ -353,9 +360,9 @@ p {
 .fil9 {
   width: 20rem;
   height: 29rem;
-  margin-top: -33.4rem;
-  margin-left: 110.7rem;
-  background-color: #ffffff;
+  margin-top: -33.5rem;
+  margin-left: -30rem;
+  background-color: #fff;
   padding: 2.0rem;
   border-radius: 1rem;
   border: 4px solid #3498db;
@@ -365,9 +372,9 @@ p {
 .fil10 {
   width: 20rem;
   height: 29rem;
-  margin-top: 2rem;
-  margin-left: -111.4rem;
-  background-color: #ffffff;
+  margin-top: -33.6rem;
+  margin-left: 25rem;
+  background-color: #fff;
   padding: 2.0rem;
   border-radius: 1rem;
   border: 4px solid #3498db;
@@ -377,9 +384,9 @@ p {
 .fil11 {
   width: 20rem;
   height: 29rem;
-  margin-top: -33.4rem;
-  margin-left: -56rem;
-  background-color: #fff;
+  margin-top: -33.7rem;
+  margin-left: 80rem;
+  background-color: #ffffff;
   padding: 2.0rem;
   border-radius: 1rem;
   border: 4px solid #3498db;
@@ -389,8 +396,9 @@ p {
 .fil12 {
   width: 20rem;
   height: 29rem;
-  margin-top: -33.4rem;
-  background-color: #fff;
+  margin-top: 2rem;
+  margin-left: -85rem;
+  background-color: #ffffff;
   padding: 2.0rem;
   border-radius: 1rem;
   border: 4px solid #3498db;
@@ -400,9 +408,9 @@ p {
 .fil13 {
   width: 20rem;
   height: 29rem;
-  margin-top: -33.4rem;
-  margin-left: 110.7rem;
-  background-color: #ffffff;
+  margin-top: -33.5rem;
+  margin-left: -30rem;
+  background-color: #fff;
   padding: 2.0rem;
   border-radius: 1rem;
   border: 4px solid #3498db;
@@ -412,15 +420,25 @@ p {
 .fil14 {
   width: 20rem;
   height: 29rem;
-  margin-top: -33.4rem;
-  margin-left: 55rem;
+  margin-top: -33.6rem;
+  margin-left: 25rem;
+  background-color: #fff;
+  padding: 2.0rem;
+  border-radius: 1rem;
+  border: 4px solid #3498db;
+
+}
+.fil15 {
+  width: 20rem;
+  height: 29rem;
+  margin-top: -33.7rem;
+  margin-left: 80rem;
   background-color: #ffffff;
   padding: 2.0rem;
   border-radius: 1rem;
   border: 4px solid #3498db;
 
 }
-
 footer {
   width: 98.6%;
   height: 100%;
@@ -430,6 +448,7 @@ footer {
   color: #fff;
   padding: 1.0rem;
   text-align: center;
+  
 
 
 }
@@ -531,8 +550,8 @@ footer p {
 }
 
 .modalSinopse2 {
-  width: 790px;
-  height: 310px;
+  width: 79rem;
+  height: 31rem;
   background-color: #333;
   border: 4px solid #3498db;
   position: fixed;
@@ -554,9 +573,9 @@ iframe {
 
 span.fechar {
   position: absolute;
-  top: 10px;
-  right: 20px;
-  font-size: 28px;
+  top: 1.0rem;
+  right: 2.0rem;
+  font-size: 2.8rem;
   font-weight: bold;
   color: #888;
   cursor: pointer;
