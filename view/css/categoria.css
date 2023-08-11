@@ -27,7 +27,7 @@ header {
   justify-content: space-between;
 }
 
-nav {
+nav {                                                                                                                                                                                                                                                                                  
   margin-top: -1.5rem;
   font-size: 1.2rem;
 }
@@ -115,16 +115,11 @@ p {
   color: #fff;
 }
 
-button:hover {
-  transform: scale(1.1);
-  transition: 0.5s;
-  background-color: #333;
-}
 
 .modalAcao {
   width: 900px;
   height: 600px;
-  background-color: #333;
+  background-color: #000000;
   border: 4px solid #3498db;
   position: fixed;
   top: 50%;
@@ -135,7 +130,6 @@ button:hover {
   animation-duration: 1000ms;
   border-radius: 1rem;
 }
-
 .modalAnimacao {
   width: 900px;
   height: 600px;
@@ -257,8 +251,65 @@ span.fechar:hover {
   from {
     opacity: 1;
   }
-
+  
   from {
     opacity: 0;
   }
 }
+
+.tituloCat{
+  margin: 4rem;
+}
+
+.filmesModal{
+  display: flex;
+  justify-content: center; 
+  margin-top: 5rem;
+}
+
+.imgFilmes{
+  margin: 15px;
+}
+
+.imgFilmes img{
+  border: 3px solid #3498db;
+  border-radius: 15px;
+}
+
+.descricaoImgCat{
+  font-size: 14px;
+  
+  margin-top: 1rem;
+  padding: 0.4rem;
+  
+  display: flex;
+  justify-content: center;
+  
+  border: 2px solid #3498db;
+  border-radius: 40rem;
+  
+  background-color: #3498db;
+  background-color: #333;
+  color:white;
+}
+
+.imgFilmes img:hover{
+  transition: 0.7s;
+  transform: scale(1.04);
+  border: 2px solid white;
+}
+
+.descricaoImgCat:hover{
+  transform: scale(1.1);
+  transition: 0.7s;
+  background-color: #3498db;
+  border: solid 2px white;
+}
+button:hover {
+  transform: scale(1.1);
+  transition: 0.7s;
+  background-color: #3498db;
+  border: solid 2px white;
+}
+
+
