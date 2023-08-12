@@ -23,14 +23,48 @@ Avaliações e Comentários: Compartilhe suas opiniões sobre filmes, veja avali
 Estamos empolgados por você estar aqui e esperamos que nossa plataforma de filmes enriqueça sua experiência cinematográfica. Sinta-se à vontade para explorar, assistir e aproveitar ao máximo tudo o que temos a oferecer!
 
 Navegação e Interface
+
 Navegar pelo nosso site de filmes é simples e intuitivo. Nossa interface foi projetada para permitir que você encontre rapidamente os filmes que deseja assistir e explore diferentes seções do site. Abaixo estão as instruções detalhadas sobre como navegar pelo site e uma explicação das diferentes seções disponíveis:
 
 Barra de Navegação Principal
+
 A barra de navegação principal está localizada na parte superior do site e contém os seguintes elementos:
 
 Página Inicial: Ao clicar nessa opção, você será redirecionado para a página inicial, onde encontrará destaques, recomendações e os filmes em destaque.
 
 Categorias: Navegue por diferentes categorias de filmes, como Ação, Drama, Comédia, Ficção Científica e muito mais. Clique em uma categoria para ver todos os filmes relacionados a ela.
+
+Cadastro e Login
+
+Seja bem-vindo ao nosso site de filmes! Para começar a desfrutar da nossa coleção de filmes, siga estas orientações passo a passo para criar uma conta e fazer login:
+
+Criação de Conta
+
+Acesse a Página de Cadastro: Na página inicial, clique no botão "Cadastro" ou "Criar Conta" localizado na barra de navegação. Isso o levará à página de registro.
+
+Preencha seus Dados: Na página de registro, preencha os campos obrigatórios, como nome de usuário, endereço de e-mail e senha. Certifique-se de escolher uma senha segura.
+
+Confirmação de E-mail: Após preencher seus dados, você receberá um e-mail de confirmação. Clique no link de confirmação no e-mail para verificar sua conta.
+
+Conclusão do Cadastro: Após confirmar seu e-mail, você será redirecionado de volta ao site. Seu cadastro estará completo e você poderá fazer login.
+
+Fazer Login
+
+Acesse a Página de Login: Na página inicial, clique no botão "Login" ou "Entrar" na barra de navegação. Isso o levará à página de login.
+
+Insira suas Credenciais: Na página de login, insira seu nome de usuário ou endereço de e-mail e a senha que você definiu durante o registro.
+
+Acesso à Conta: Clique no botão "Entrar" para acessar sua conta. Você será redirecionado à sua página de perfil.
+
+Gerenciando sua Conta
+
+Página de Perfil: Na página de perfil, você encontrará informações sobre sua conta, incluindo dados pessoais e configurações.
+
+Editar Perfil: Se desejar, você pode editar suas informações de perfil, como nome de usuário, foto e preferências de notificação.
+
+Listas Personalizadas: Crie e gerencie suas próprias listas de filmes, como "Assistir Mais Tarde" ou "Favoritos".
+
+Alterar Senha: Se você precisar alterar sua senha, acesse as configurações da conta e siga as instruções para atualizar suas informações de segurança.
 
 Categorias de Filmes
 
@@ -75,8 +109,6 @@ Detalhes e Interatividade: Ao acessar as páginas de filmes, você pode obter in
 Personalização: Aproveite as opções de personalização, como a criação de listas de reprodução personalizadas e a adição de filmes aos seus favoritos, para organizar suas escolhas e descobertas.
 
 Suporte e Feedback: Lembre-se de que estamos aqui para ajudar. Se você tiver algum problema ou dúvida, consulte a seção de suporte ou entre em contato conosco. Valorizamos seu feedback para melhorar continuamente a experiência do usuário.
-
-
 
 Acesso Multiplataforma: Acesse nossa plataforma de filmes a partir de qualquer dispositivo com acesso à internet, incluindo computadores, tablets e smartphones.
 
