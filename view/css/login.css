@@ -1,0 +1,192 @@
+body {
+    background-color: #333;
+}
+
+:root {
+    font-size: 84%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 97.6%;
+    background-color: #000000;
+    color: #fff;
+    padding: 2.0rem;
+    border-radius: 1.0rem;
+    border: .4rem solid #3498db;
+    margin-top: -0.5rem;
+    margin-left: -0.5rem;
+}
+
+.screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 59.3rem;
+    background-color: #333;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 2.5rem;
+}
+
+p {
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+.esqueceuSenha {
+    color: white;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    font-size: 1.7rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1.0rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navCategorias:hover {
+    transition: 0.7s;
+    transform: scale(1.04);
+    color: #3498db;
+
+}
+
+.navSobre:hover {
+    transition: 0.7s;
+    transform: scale(1.04);
+    color: #3498db;
+}
+
+.login-section {
+    background-color: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1.0rem;
+    width: 45.375rem;
+    height: 38.625rem;
+    display: flex;
+    justify-content: center;
+    border: 4px solid #3498db;
+}
+
+.login-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1.875rem;
+}
+
+.login-content .access h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.login-content .access p {
+    text-align: center;
+}
+
+.login-content form .inputSign {
+    width: 100%;
+    max-width: 30.25rem;
+    padding: 1.1rem;
+    margin: 0.75rem 0;
+    border-radius: 1.25rem;
+    border: none;
+    font-style: italic;
+}
+
+.login-content form .inputSign:focus {
+    outline: none;
+}
+
+.login-content form .login-action {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.login-content form .login-action a {
+    text-decoration: underline;
+    font-weight: 200;
+    font-style: italic;
+    color: black;
+    font-size: 0.938rem;
+}
+
+#signIn {
+    width: 30%;
+    height: 3.75rem;
+    margin-left: 10rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    border-radius: 1rem;
+    border: none;
+    background-color: #333;
+    color: white;
+    border: 4px solid #3498db;
+}
+
+#signIn:hover {
+    cursor: pointer;
+    background-color: #3498db;
+    border: 4px solid white;
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 0.7s;
+    transform: scale(1.04);
+}
+
+footer {
+    width: 99.7%;
+    height: 6rem;
+    margin-top: -5.7rem;
+    margin-left: -1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000000;
+    color: #fff;
+    padding: 1.0rem;
+    text-align: center;
+   
+}
+
+footer p {
+    font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
