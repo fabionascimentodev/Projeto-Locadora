@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  width: 96.4%;
+  width: 96.7%;
   background-color: #000000;
   color: #fff;
   padding: 2rem;
@@ -117,7 +117,7 @@ p {
 footer {
   width: 98.6%;
   height: 100%;
-  margin-top: 21.9rem;
+  margin-top: 25.1rem;
   display: flex;
   flex-direction: column;
   background-color: #000000;
