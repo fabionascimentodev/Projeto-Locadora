@@ -1,12 +1,52 @@
-INTRODUÇÃO A VISÃO GERAL
+                    #Projeto Locadora
+                    ![](url or img)
+
+Introdução a Visão Geral
 
 Nosso site de filmes é uma plataforma online que reúne uma seleção abrangente de filmes de todos os cantos do mundo. Aqui, você encontrará desde clássicos renomados até os lançamentos mais recentes, tudo em um único lugar de fácil acesso.
 
-FINALIDADE
+## 🎯Indice
+
+- <a href="#funcionalidades">Funcionalidades do Projeto</a>
+- <a href="#demonstracao">Demonstração</a>
+- <a href="#tecnologias">Tecnologias</a>
+- <a href="#autoras">Pessoas Autoras</a>
+- <a href="#rodar">Como rodar esse projeto</a>
+
+## 🔩Funcionalidades do Projeto
+
+- [x] Cadastro de usuários
+- [x] Cadastro de endereço
+- [x] Login
+- [x] Destaques
+- [x] Lançamentos
+
+## 📱Layout
+
+- [Tela login](assets/telaLogin.png)
+- [Tela Principal](assets/telaPrincipal.png)
+- [Tela Assistir](assets/telaAssistir.png)
+- [Tela Sinopse](assets/telasinopse.png)
+- [Tela Sobre](assets/telaSobre.png)
+- [Categoria Ação](assets/categoriaAcao.png)
+- [Categoria Animação](assets/categoriaAnimacao.png)
+- [Categoria Comedia](assets/categoriaComedia.png)
+- [Categoria Drama](assets/categoriaDrama.png)
+- [Categoria Romance](assets/categoriaRomance.png)
+- [Categoria Suspense](assets/categoriaSuspense.png)
+- [Categoria Terror](assets/categoriaTerror.png)
+- [Modal Ação](assets/modalAcao.png)
+- [Modal Animação](assets/modalAnimacao.png)
+- [Modal Comedia](assets/modalComedia.png)
+- [Modal Drama](assets/modalDrama.png)
+- [Modal Romance](assets/modalRomance.png)
+- [Modal Terror](assets/modalTerror.png)
+
+Finalidade
 
 Nossa finalidade é oferecer a você um espaço onde possa se conectar com suas paixões cinematográficas, descobrir novos títulos, acompanhar seus filmes favoritos e mergulhar em uma jornada através da sétima arte. Quer você seja um ávido cinéfilo ou alguém que simplesmente deseja relaxar assistindo a um filme ocasional, nossa plataforma é projetada para atender a todas as suas necessidades.
 
-PRINCIPAIS CARACTERISTÍCAS E BENEFÍCIOS
+Principais Características e Benefícios
 
 Catálogo Diversificado: Explore uma extensa variedade de filmes, desde clássicos atemporais até os mais recentes sucessos de bilheteria.
 
