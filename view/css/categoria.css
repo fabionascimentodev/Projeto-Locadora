@@ -13,13 +13,14 @@ body {
 }
 
 header {
-  /* width: 96.7%; */
-  max-width: 100%; /*CORREÇÃO BARRA HORIZONTAL*/ 
+  display: flex;
+  flex-direction: column;
+  width: 96.6%;
   background-color: #000000;
   color: #fff;
-  padding: 2rem;
-  border-radius: 1rem;
-  border: 0.4rem solid #3498db;
+  padding: 2.0rem;
+  border-radius: 1.0rem;
+  border: .4rem solid #3498db;
 }
 
 .header-content {
@@ -29,8 +30,8 @@ header {
 }
 
 nav {                                                                                                                                                                                                                                                                                  
-  margin-top: -1.5rem;
-  font-size: 1.2rem;
+  
+  font-size: 1.7rem;
 }
 
 nav ul {
@@ -48,9 +49,21 @@ nav ul li a {
   color: #fff;
   text-decoration: none;
 }
+.NavInicio:hover{
+  transition: 0.7s;
+  transform: scale(1.04);
+  color: #3498db;
 
-.voltar {
-  margin-left: 12rem;
+}
+.navSobre:hover{
+  transition: 0.7s;
+  transform: scale(1.04);
+  color: #3498db;
+}
+.Sair:hover{
+  transition: 0.7s;
+  transform: scale(1.04);
+  color: #ff0000;
 }
 
 main {
@@ -61,28 +74,26 @@ section {
   margin-bottom: 2rem;
 }
 
-h1 {
-  margin-top: 0.9rem;
-  position: flex;
-  color: white;
-  text-align: center;
-  font-size: 2rem;
-}
 .modalSobre h1 {
-  margin-top: 3rem;
+  margin-top: 4.3rem;
   position: flex;
   color: white;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.0rem;
+}
+
+h1 {
+  position: flex;
+  color: white;
+  text-align: center;
+  font-size: 2.0rem;
 }
 
 h2 {
+  margin-top: 4.0rem;
   color: white;
   text-align: center;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  margin: 0;
-  padding: 0;
+  font-size: 2.0rem;
 }
 
 h3 {
@@ -248,7 +259,7 @@ footer p {
   display: none;
   animation: animate;
   animation-duration: 1000ms;
-  border-radius: 1rem;
+  border-radius: 1.0rem;
 }
 span.fechar {
   position: absolute;
