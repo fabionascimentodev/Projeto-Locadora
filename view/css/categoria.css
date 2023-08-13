@@ -114,6 +114,7 @@ p {
   display: flex;
   justify-content: center;
   margin-top: 14rem;
+  flex-wrap: wrap;
 }
 
 .btn-categorias button {
