@@ -73,16 +73,6 @@ main {
   width: 96.8%;
   padding: 2.0rem;
   align-items: center;
-  border: .4rem solid #3498db;
-
-}
-.destaques{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 3rem;
-  border: .4rem solid #3498db;
-  
 }
 .filme {
   width: 20rem;
@@ -101,32 +91,8 @@ main {
   gap: 1rem;
   
 }
-.filmes {
-  width: 20rem;
-  height: 28rem;
-  margin-top: 2rem;
-  background-color: #ffffff;
-  padding: 1.0rem;
-  border-radius: 1rem;
-  border: .4rem solid #3498db;
-  
-}
-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 96.8%;
-  background-color: #000000;
-  color: #fff;
-  padding: 2.0rem;
-  border-radius: 1.0rem;
-  border: .4rem solid #3498db;
-  
-}
 
-footer p {
-  font-size: 1.5rem;
-}
+
 .modalSobre h1 {
   margin-top: 4.3rem;
   position: flex;
