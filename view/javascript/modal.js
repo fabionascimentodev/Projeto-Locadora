@@ -118,11 +118,4 @@ function fechar14(){
     let modalTodosOsFilmes11 = document.querySelector('.modalTodosOsFilmes11')
     modalTodosOsFilmes11.style.display = 'none';
 }
-function acao15(){
-    let modalTodosOsFilmes12 = document.querySelector('.modalTodosOsFilmes12')
-    modalTodosOsFilmes12.style.display = 'block';
-}
-function fechar15(){
-    let modalTodosOsFilmes12 = document.querySelector('.modalTodosOsFilmes12')
-    modalTodosOsFilmes12.style.display = 'none';
-}
+
