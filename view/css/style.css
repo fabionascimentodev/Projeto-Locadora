@@ -23,6 +23,17 @@ header {
   border-radius: 1.0rem;
   border: .4rem solid #3498db;
 }
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 96.8%;
+  background-color: #000000;
+  color: #fff;
+  padding: 2.0rem;
+  border-radius: 1.0rem;
+  border: .4rem solid #3498db;
+}
 
 .header-content {
   display: flex;
@@ -74,6 +85,13 @@ main {
   padding: 2.0rem;
   align-items: center;
 }
+.destaques {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  
+}
 .filme {
   width: 20rem;
   height: 28rem;
@@ -91,7 +109,16 @@ main {
   gap: 1rem;
   
 }
-
+.filmes {
+  width: 20rem;
+  height: 28rem;
+  margin-top: 2rem;
+  background-color: #ffffff;
+  padding: 2.0rem;
+  border-radius: 1rem;
+  border: .4rem solid #3498db;
+  
+}
 
 .modalSobre h1 {
   margin-top: 4.3rem;
