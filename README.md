@@ -1,5 +1,5 @@
                     #Projeto Locadora
-<img src="assets/reinoDosFilmesLogo.png" width=500px height=500px>
+  <img src="assets/reinoDosFilmesLogo.png" width=600px height=500px aligt=center>
 
  
 # Introdução a Visão Geral
