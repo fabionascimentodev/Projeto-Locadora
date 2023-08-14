@@ -20,6 +20,7 @@ Nosso site de filmes é uma plataforma online que reúne uma seleção abrangent
 - [x] Login
 - [x] Destaques
 - [x] Lançamentos
+- [ ] <img href="assets/enricoFoto.jpg">
 
 ## 📱Layout
 
