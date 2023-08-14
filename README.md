@@ -1,7 +1,7 @@
                     #Projeto Locadora
-                    ![Reino dos Filmes](assets/reinoDosFilmes.png.png)
+                    ![Reino dos Filmes](assets/reinoDosFilmesLogo.png)
 
-Introdução a Visão Geral
+# Introdução a Visão Geral
 
 Nosso site de filmes é uma plataforma online que reúne uma seleção abrangente de filmes de todos os cantos do mundo. Aqui, você encontrará desde clássicos renomados até os lançamentos mais recentes, tudo em um único lugar de fácil acesso.
 
@@ -44,7 +44,7 @@ Nosso site de filmes é uma plataforma online que reúne uma seleção abrangent
 
 ## 💿Demonstração
 
-[Link]()
+[Link](https://github.com/fabionascimentodev/Projeto-Locadora)
 
 ## Como rodar este projeto?
 
@@ -58,7 +58,9 @@ $ Git clone fabionascimentodev/Projeto-Locadora
 
 $ cd /Projeto-Locadora
 
-#
+# Abra o VScode
+
+$ execute o programa
 
 ´´´
 
@@ -73,14 +75,14 @@ $ cd /Projeto-Locadora
 
 ## 🐼Pessoas Autoras
 
-[Fábio Nascimento](assets/fabioNovo.jpeg)
-[Enrico Brasil](assets/EnricoFotos.jpg)
-[Lorena Freitas](assets/lorenaFoto.enc)
-[Everson Silva](assets/eversonFotos.jpeg)
+[Fábio Nascimento](assets/fabioNovo.jpeg)<br>
+[Enrico Brasil](assets/enricoFoto.jpg)<br>
+[Lorena Freitas](assets/lorenaFoto.enc)<br>
+[Everson Silva](assets/eversonFoto.jpeg)<br>
 
-[Linkedin] (https://www.linkedin.com/in/fabio-nascimento-031a2549/)
-[Linkedin] (https://www.linkedin.com/in/everson-silva-b0398310b/)
-[Linkedin] (https://www.linkedin.com/in/enrico-brasil-0bbb8b254/)
+[Linkedin] (https://www.linkedin.com/in/fabio-nascimento-031a2549/)<br>
+[Linkedin] (https://www.linkedin.com/in/everson-silva-b0398310b/)<br>
+[Linkedin] (https://www.linkedin.com/in/enrico-brasil-0bbb8b254/)<br>
 
 # Finalidade
 
