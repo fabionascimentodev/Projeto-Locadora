@@ -77,7 +77,7 @@ $ execute o programa
 ## 🐼Pessoas Autoras
 
 [Fábio Nascimento](assets/fabioNovo.jpeg)<br>
-[Enrico Brasil](assets/enricoFoto.jpg)<br>
+[Enrico Brasil] <img src="assets/enricoFoto.jpg"> <br>
 [Lorena Freitas](assets/lorenaFoto.enc)<br>
 [Everson Silva](assets/eversonFoto.jpeg)<br>
 
