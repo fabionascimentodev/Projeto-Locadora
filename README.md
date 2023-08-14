@@ -126,9 +126,9 @@ Ao clicar nessa opção, você será redirecionado para a página inicial, onde 
 ## Categorias
 Navegue por diferentes categorias de filmes, como Ação, Drama, Comédia, Ficção Científica e muito mais. Clique em uma categoria para ver todos os filmes relacionados a ela.
 
-## Cadastro e Login
+# Cadastro e Login
 
-# Seja bem-vindo ao nosso site de filmes! Para começar a desfrutar da nossa coleção de filmes, siga estas orientações passo a passo para criar uma conta e fazer login:
+## Seja bem-vindo ao nosso site de filmes! Para começar a desfrutar da nossa coleção de filmes, siga estas orientações passo a passo para criar uma conta e fazer login:
 
 ## Criação de Conta
 
