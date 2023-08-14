@@ -1,6 +1,7 @@
                     #Projeto Locadora
-                    <img src="assets/reinoDosFilmesLogo.png">
+<img src="assets/reinoDosFilmesLogo.png">
 
+ 
 # Introdução a Visão Geral
 
 Nosso site de filmes é uma plataforma online que reúne uma seleção abrangente de filmes de todos os cantos do mundo. Aqui, você encontrará desde clássicos renomados até os lançamentos mais recentes, tudo em um único lugar de fácil acesso.
