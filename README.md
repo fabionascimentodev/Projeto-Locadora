@@ -1,4 +1,8 @@
+<<<<<<< HEAD
                     #Projeto Locadora
+=======
+                   #Projeto Locadora
+>>>>>>> 305127a13a8ef47b6e608dc48273db110440885f
   <img src="assets/reinoDosFilmesLogo.png" width=830px height=560px>
 
  
@@ -21,7 +25,11 @@ Nosso site de filmes é uma plataforma online que reúne uma seleção abrangent
 - [x] Login
 - [x] Destaques
 - [x] Lançamentos
+<<<<<<< HEAD
 - [ ] <img href="assets/enricoFoto.jpg">
+=======
+  
+>>>>>>> 305127a13a8ef47b6e608dc48273db110440885f
 
 ## 📱Layout
 
