@@ -1,5 +1,5 @@
                     #Projeto Locadora
-                    ![Reino dos Filmes](assets/reinoDosFilmesLogo.png)
+                    <img src="assets/reinoDosFilmesLogo.png">
 
 # Introdução a Visão Geral
 
