@@ -2,9 +2,10 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="view/css/categoria.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="view/css/categoria.css" />
+  <link rel="stylesheet" href="view/css/style.css">
   <script src="view/javascript/sobre.js"></script>
   <script src="view/javascript/modalCategoria.js"></script>
   <title>Categoria</title>
@@ -12,14 +13,16 @@
 
 <body>
   <header>
-    <h1>FABIO FILMES</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Filmes</a></li>
-        <li><a href="categorias.html">Categorias</a></li>
-        <li><a href="#" onclick="abrirSobre()">Sobre</a></li>
-      </ul>
-    </nav>
+    <div class="header-content">
+      <h1>REINO DOS FILMES</h1>
+      <nav>
+        <ul>
+          <li><a class="NavInicio" href="principal.html">Inicio</a></li>
+          <li><a class="navSobre" href="#" onclick="abrirSobre()">Sobre</a></li>
+          <li><a class="Sair" href="index.html">Sair</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
@@ -36,7 +39,7 @@
       </div>
 
       <div class="modalSobre">
-        <h1>Nossa missão é desenvolver, amplificar e conectar!</h1>
+        <h1>Nossa missão é desenvolver, amplificar e conectar !</h1>
         <h1>Quem Somos?</h1>
         <h4>Estudantes Desenvolverdores de Sistemas</h4>
         <h4>Fabio Nascimento</h4>
@@ -53,55 +56,176 @@
     </section>
 
     <div class="modalAcao">
-      <h1><img src="view/imagens/missao.jpg" alt="Filme Missão Impossivel."></h1>
-      <img src="view/imagens/missao-de-sobrevivencia-poster-desktop-5194c.jpg" alt="Filme Missão de Sobrevivencia"></h1>
-      <img src="view/imagens/flash.jpg" alt="Filme Flash"></h1>
-      <img src="view/imagens/velozes.jpg" alt="Filme Velozes e Furiozos"></h1>
-      <span onclick="fecharBtnAcao()" class="fechar">&times;</span>
+      <h1 class="tituloCat">Ação</h1>
+      <div class="filmesModal">
+        <div class="imgFilmes">
+          <img src="view/imagens/missao.jpg" alt="Filme Missão Impossivel." onclick="acao()"/>
+          <div class="descricaoImgCat" onclick="acao()">
+            <caption>
+              Missão Impossivel
+            </caption>
+          </div>
+        </div>
 
+        <div class="imgFilmes">
+          <img src="view/imagens/missao-de-sobrevivencia-poster-desktop-5194c.jpg"
+            alt="Filme Missão de Sobrevivencia" />
+
+          <div class="descricaoImgCat">
+            <caption>
+              Missão de Sobrevivencia
+            </caption>
+          </div>
+        </div>
+
+        <div class="imgFilmes">
+          <img src="view/imagens/flash.jpg" alt="Filme Flash" />
+
+          <div class="descricaoImgCat">
+            <caption>
+              Flash
+            </caption>
+          </div>
+        </div>
+
+        <div class="imgFilmes">
+          <img src="view/imagens/velozes.jpg" alt="Filme Velozes e Furiozos" />
+
+          <div class="descricaoImgCat">
+            <caption>
+              Velozes e Furiozos
+            </caption>
+          </div>
+        </div>
+
+        <span onclick="fecharBtnAcao()" class="fechar">&times;</span>
+      </div>
     </div>
+    <!-- FAZER ALTERAÇÕES DOS FILMES DEIXAR NO PADRÃO DO FILME AÇÃO -->
 
     <div class="modalAnimacao">
-      <h1><img src="view/imagens/os-peludos-poster-desktop-5006c.jpg" alt="Filme Os Peludos"></h1>
-      <span onclick="fecharBtnAnimacao()" class="fechar">&times;</span>
-
+      <h1 class="tituloCat">Animação</h1>
+      <div class="filmesModal">
+        <div class="imgFilmes">
+          <img src="view/imagens/os-peludos-poster-desktop-5006c.jpg" alt="Filme Os Peludos" />
+          <div class="descricaoImgCat">
+            <caption>
+              Missão Impossivel
+            </caption>
+          </div>
+        </div>
+        <span onclick="fecharBtnAnimacao()" class="fechar">&times;</span>
+      </div>
     </div>
-
     <div class="modalComedia">
-      <h1><img src="view/imagens/loucas-em-apuros-poster-desktop-5089c.jpg" alt="Filme Loucas em Apuros">
-      </h1>
-      <span onclick="fecharBtnComedia()" class="fechar">&times;</span>
-
+      <h1 class="tituloCat">Comedia</h1>
+      <div class="filmesModal">
+        <div class="imgFilmes">
+          <img src="view/imagens/loucas-em-apuros-poster-desktop-5089c.jpg" alt="Filme Loucas em Apuros" />
+          <div class="descricaoImgCat">
+            <caption>
+              Loucas em Apuros
+            </caption>
+          </div>
+        </div>
+        <span onclick="fecharBtnComedia()" class="fechar">&times;</span>
+      </div>
     </div>
 
     <div class="modalDrama">
-      <h1><img src="view/imagens/a-era-de-ouro-poster-desktop-5202c.jpg" alt="Filme A Era do Ouro"></h1>
-      <span onclick="fecharBtnDrama()" class="fechar">&times;</span>
-
+      <h1 class="tituloCat">Drama</h1>
+      <div class="filmesModal">
+        <div class="imgFilmes">
+          <img src="view/imagens/a-era-de-ouro-poster-desktop-5202c.jpg" alt="Filme A Era do Ouro" />
+          <div class="descricaoImgCat">
+            <caption>
+              A era do Ouro
+            </caption>
+          </div>
+        </div>
+        <span onclick="fecharBtnDrama()" class="fechar">&times;</span>
+      </div>
     </div>
 
     <div class="modalTerror">
-      <h1><img src="view/imagens/fale-comigo-poster-desktop-5172c.jpg" alt=""></h1>
-      <h1><img src="view/imagens/o-protetor-capitulo-final-poster-desktop-5187c.jpg" alt="Filme O Protetor."></h1>
-      <h1><img src="view/imagens/o-convento-poster-desktop-5193c.jpg" alt="Filme O convento.">foto</h1>
-      <span onclick="fecharBtnTerror()" class="fechar">&times;</span>
-
+      <h1 class="tituloCat">Terror</h1>
+      <div class="filmesModal">
+        <div class="imgFilmes">
+          <img src="view/imagens/fale-comigo-poster-desktop-5172c.jpg" alt="" />
+          <div class="descricaoImgCat">
+            <caption>
+              Fale comigo
+            </caption>
+          </div>
+        </div>
+        <div class="imgFilmes">
+          <img src="view/imagens/o-protetor-capitulo-final-poster-desktop-5187c.jpg" alt="Filme O Protetor." />
+          <div class="descricaoImgCat">
+            <caption>
+              O Protetor
+            </caption>
+          </div>
+        </div>
+        <div class="imgFilmes">
+          <img src="view/imagens/o-convento-poster-desktop-5193c.jpg" alt="Filme O convento." />
+          <div class="descricaoImgCat">
+            <caption>
+              O convento
+            </caption>
+          </div>
+        </div>
+        <span onclick="fecharBtnTerror()" class="fechar">&times;</span>
+      </div>
     </div>
 
     <div class="modalRomance">
-      <h1><img src="view/imagens/perdida-poster-desktop-5148c.jpg" alt="Filme Perdida"></h1>
-      <span onclick="fecharBtnRomance()" class="fechar">&times;</span>
-
+      <h1 class="tituloCat">Romance</h1>
+      <div class="filmesModal">
+        <div class="imgFilmes">
+          <img src="view/imagens/perdida-poster-desktop-5148c.jpg" alt="Filme Perdida" />
+          <div class="descricaoImgCat">
+            <caption>
+              Perdida
+            </caption>
+          </div>
+        </div>
+        <span onclick="fecharBtnRomance()" class="fechar">&times;</span>
+      </div>
     </div>
 
     <div class="modalSuspense">
-      <h1><img src="view/imagens/muti-crime-e-poder-poster-desktop-5209c.jpg" alt="Filme Multi-Crime."></h1>
-      <h1><img src="view/imagens/oppenheimer-poster-desktop-5166c.jpg" alt="Filme oppenhereimer"></h1>
-      <span onclick="fecharBtnSuspense()" class="fechar">&times;</span>
+      <h1 class="tituloCat">Suspense</h1>
+      <div class="filmesModal">
+        <div class="imgFilmes">
+          <img src="view/imagens/oppenheimer-poster-desktop-5166c.jpg" alt="Filme oppenhereimer" />
+          <div class="descricaoImgCat">
+            <caption>
+              Oppenhereimer
+            </caption>
+          </div>
+        </div>
 
+        <div class="imgFilmes">
+          <img src="view/imagens/muti-crime-e-poder-poster-desktop-5209c.jpg" alt="Filme Multi-Crime." />
+          <div class="descricaoImgCat">
+            <caption>
+              Muti-Crime e poder
+            </caption>
+          </div>
+        </div>
+
+        <span onclick="fecharBtnSuspense()" class="fechar">&times;</span>
+      </div>
     </div>
-
+    <div class="modal">
+      <h1>Missao Impossivel : Acerto de Contas</h1>
+      <span onclick="fechar()" class="fechar">&times;</span>
+      <iframe width="860" height="515" src="https://www.youtube.com/embed/94ceNwopotk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
   </main>
+  <footer>
+    <p>© 2023 REINO DOS FILMES. Todos os direitos reservados.</p>
+  </footer>
 </body>
 
 </html>

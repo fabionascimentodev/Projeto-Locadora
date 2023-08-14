@@ -9,18 +9,33 @@ body {
 }
 
 :root {
-  font-size: 90%;
+  font-size: 84%;
 }
 
 header {
   display: flex;
   flex-direction: column;
-  width: 96.6%;
+  justify-content: space-between;
+  max-width: 100%;
   background-color: #000000;
   color: #fff;
   padding: 2.0rem;
   border-radius: 1.0rem;
   border: .4rem solid #3498db;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 100%;
+  background-color: #000000;
+  color: #fff;
+  padding: 2.0rem;
+  border-radius: 1.0rem;
+  border: .4rem solid #3498db;
+}
+footer p{
+  font-size: 1.4rem;
 }
 
 .header-content {
@@ -28,7 +43,9 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+
 nav {
+  justify-content: space-between;
   font-size: 1.7rem;
 }
 
@@ -47,32 +64,88 @@ nav ul li a {
   color: #fff;
   text-decoration: none;
 }
+.navCategorias:hover{
+  transition: 0.7s;
+  transform: scale(1.04);
+  color: #3498db;
 
-.voltar {
-  margin-left: 12rem;
 }
-
+.navSobre:hover{
+  transition: 0.7s;
+  transform: scale(1.04);
+  color: #3498db;
+}
+.Sair:hover{
+  transition: 0.7s;
+  transform: scale(1.04);
+  color: #ff0000;
+}
 main {
   display: flex;
   flex-direction: column;
-  width: 96.6%;
+  justify-content: space-between;
+  max-width: 100%;
   padding: 2.0rem;
   align-items: center;
-
 }
-
-.todosOsFilmes {
-  width: 100%;
-  height: 100%;
+.destaques {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  
 }
-
+.filme {
+  width: 20rem;
+  height: 28rem;
+  margin-top: 2rem;
+  background-color: #ffffff;
+  padding: 2.0rem;
+  border-radius: 1rem;
+  border: .4rem solid #3498db;
+  
+}
+.todosOsFilmes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  
+}
+.filmes {
+  width: 20rem;
+  height: 28rem;
+  margin-top: 2rem;
+  background-color: #ffffff;
+  padding: 2.0rem;
+  border-radius: 1rem;
+  border: .4rem solid #3498db;
+  
+}
 
 .modalSobre h1 {
-  margin-top: 3.0rem;
+  margin-top: 4.3rem;
+  position: flex;
+  color: white;
+  text-align: center;
+  font-size: 2.0rem;
+}
+.modalSinopse h1 {
+  margin-top: 4.3rem;
+  position: flex;
+  color: white;
+  text-align: center;
+  font-size: 2.0rem;
+}
+.modalSinopse1 h1 {
+  margin-top: 4.3rem;
+  position: flex;
+  color: white;
+  text-align: center;
+  font-size: 2.0rem;
+}
+.modalSinopse2 h1 {
+  margin-top: 4.3rem;
   position: flex;
   color: white;
   text-align: center;
@@ -109,119 +182,33 @@ p {
 
 }
 
-.filme {
-  width: 20rem;
-  height: 29rem;
-  margin-top: 2rem;
-  background-color: #ffffff;
-  padding: 2.0rem;
-  border-radius: 1rem;
-  border: .4rem solid #3498db;
-}
-
-.filme2 {
-  width: 20rem;
-  height: 29rem;
-  margin-top: -33.6rem;
-  margin-left: 30rem;
-  background-color: #fff;
-  padding: 2.0rem;
-  border-radius: 1rem;
-  border: .4rem solid #3498db;
-
-}
-
-.filme3 {
-  width: 20rem;
-  height: 29rem;
-  margin-top: -33.6rem;
-  margin-left: 60rem;
-  background-color: #fff;
-  padding: 2.0rem;
-  border-radius: 1rem;
-  border: .4rem solid #3498db;
-
-}
-
 .filme img {
   width: 100%;
   max-width: 177px;
   margin-bottom: .0rem;
   margin-left: 4.0rem;
+  border: 2px solid #3498db;
+  border-radius: 15px;
+  
 }
-
-.filme2 img {
-  width: 100%;
-  max-width: 12.6rem;
-  margin-bottom: .0rem;
-  margin-left: 4.0rem;
+.filme img:hover{
+  transition: 0.7s;
+  transform: scale(1.04);
+  border: 2px solid #3498db;
 }
-
-.filme3 img {
+.filmes img {
   width: 100%;
   max-width: 177px;
   margin-bottom: .0rem;
   margin-left: 4.0rem;
+  border: 2px solid #3498db;
+  border-radius: 15px;
+  
 }
-
-.fil0 img {
-  margin-left: 4.0rem;
-}
-
-.fil1 img {
-  margin-left: 4.0rem;
-}
-
-.fil2 img {
-  margin-left: 4.0rem;
-}
-
-.fil3 img {
-  margin-left: 4.0rem;
-}
-
-.fil4 img {
-  margin-left: 4.0rem;
-}
-
-.fil5 img {
-  margin-left: 4.0rem;
-}
-
-.fil6 img {
-  margin-left: 4.0rem;
-}
-
-.fil7 img {
-  margin-left: 4.0rem;
-}
-
-.fil8 img {
-  margin-left: 4.0rem;
-}
-
-.fil9 img {
-  margin-left: 4.0rem;
-}
-
-.fil10 img {
-  margin-left: 4.0rem;
-}
-
-.fil11 img {
-  margin-left: 4.0rem;
-}
-
-.fil12 img {
-  margin-left: 4.0rem;
-}
-
-.fil13 img {
-  margin-left: 4.0rem;
-}
-
-.fil14 img {
-  margin-left: 4.0rem;
+.filmes img:hover{
+  transition: 0.7s;
+  transform: scale(1.04);
+  border: 2px solid #3498db;
 }
 
 .botao {
@@ -231,217 +218,22 @@ p {
   color: #fff;
   padding: .8rem 1.2rem;
   text-decoration: none;
-  border-radius: .4rem;
+  border-radius: 1rem;
   cursor: pointer;
-}
-
-.Botao {
-  margin-left: 7.5rem;
-  display: inline-block;
-  background-color: #333;
-  color: #fff;
-  padding: .8rem 1.2rem;
-  text-decoration: none;
-  border-radius: .4rem;
-  cursor: pointer;
-}
-
-.fil0 {
-  width: 20rem;
-  height: 29rem;
-  margin-top: 2rem;
-  margin-left: -111.4rem;
-  background-color: #ffffff;
-  padding: 2.0rem;
-  border-radius: 1rem;
-  border: 4px solid #3498db;
-}
-
-.fil1 {
-  width: 20rem;
-  height: 29rem;
-  margin-top: -34.8rem;
-  margin-left: -56rem;
-  background-color: #fff;
-  padding: 2.0rem;
-  border-radius: 1rem;
-  border: 4px solid #3498db;
-}
-
-.fil2 {
-  width: 20rem;
-  height: 29rem;
-  margin-top: -33.4rem;
-  background-color: #fff;
-  padding: 2.0rem;
-  border-radius: 1rem;
   border: 4px solid #3498db;
 
 }
-
-.fil3 {
-  width: 20rem;
-  height: 29rem;
-  margin-top: -33.4rem;
-  margin-left: 55rem;
-  background-color: #ffffff;
-  padding: 2.0rem;
-  border-radius: 1rem;
-  border: 4px solid #3498db;
-
-}
-
-.fil4 {
-  width: 20rem;
-  height: 29rem;
-  margin-top: -33.4rem;
-  margin-left: 110.7rem;
-  background-color: #ffffff;
-  padding: 2.0rem;
-  border-radius: 1rem;
-  border: 4px solid #3498db;
-
-}
-
-.fil5 {
-  width: 20rem;
-  height: 29rem;
-  margin-top: 2rem;
-  margin-left: -111.4rem;
-  background-color: #ffffff;
-  padding: 2.0rem;
-  border-radius: 1rem;
-  border: 4px solid #3498db;
-
-}
-
-.fil6 {
-  width: 20rem;
-  height: 29rem;
-  margin-top: -33.4rem;
-  margin-left: -56rem;
-  background-color: #fff;
-  padding: 2.0rem;
-  border-radius: 1rem;
-  border: 4px solid #3498db;
-
-}
-
-.fil7 {
-  width: 20rem;
-  height: 29rem;
-  margin-top: -33.4rem;
-  background-color: #fff;
-  padding: 2.0rem;
-  border-radius: 1rem;
-  border: 4px solid #3498db;
-
-}
-
-.fil8 {
-  width: 20rem;
-  height: 29rem;
-  margin-top: -33.4rem;
-  margin-left: 55rem;
-  background-color: #ffffff;
-  padding: 2.0rem;
-  border-radius: .1rem;
-  border: 4px solid #3498db;
-
-}
-
-.fil9 {
-  width: 20rem;
-  height: 29rem;
-  margin-top: -33.4rem;
-  margin-left: 110.7rem;
-  background-color: #ffffff;
-  padding: 2.0rem;
-  border-radius: 1rem;
-  border: 4px solid #3498db;
-
-}
-
-.fil10 {
-  width: 20rem;
-  height: 29rem;
-  margin-top: 2rem;
-  margin-left: -111.4rem;
-  background-color: #ffffff;
-  padding: 2.0rem;
-  border-radius: 1rem;
-  border: 4px solid #3498db;
-
-}
-
-.fil11 {
-  width: 20rem;
-  height: 29rem;
-  margin-top: -33.4rem;
-  margin-left: -56rem;
-  background-color: #fff;
-  padding: 2.0rem;
-  border-radius: 1rem;
-  border: 4px solid #3498db;
-
-}
-
-.fil12 {
-  width: 20rem;
-  height: 29rem;
-  margin-top: -33.4rem;
-  background-color: #fff;
-  padding: 2.0rem;
-  border-radius: 1rem;
-  border: 4px solid #3498db;
-
-}
-
-.fil13 {
-  width: 20rem;
-  height: 29rem;
-  margin-top: -33.4rem;
-  margin-left: 110.7rem;
-  background-color: #ffffff;
-  padding: 2.0rem;
-  border-radius: 1rem;
-  border: 4px solid #3498db;
-
-}
-
-.fil14 {
-  width: 20rem;
-  height: 29rem;
-  margin-top: -33.4rem;
-  margin-left: 55rem;
-  background-color: #ffffff;
-  padding: 2.0rem;
-  border-radius: 1rem;
-  border: 4px solid #3498db;
-
-}
-
-footer {
-  width: 98.6%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  background-color: #000000;
-  color: #fff;
-  padding: 1.0rem;
-  text-align: center;
-
-
-}
-
-footer p {
-  font-size: 1.5rem;
+.botao:hover{
+  transition: 0.7s;
+  transform: scale(1.04);
+  background-color: #3498db;
+  border: 2px solid white;
 }
 
 .modal {
   width: 900px;
   height: 600px;
-  background-color: #333;
+  background-color: #000000;
   border: 4px solid #3498db;
   position: fixed;
   top: 50%;
@@ -456,7 +248,7 @@ footer p {
 .modal1 {
   width: 900px;
   height: 600px;
-  background-color: #333;
+  background-color: #000000;
   border: 4px solid #3498db;
   position: fixed;
   top: 50%;
@@ -471,7 +263,7 @@ footer p {
 .modal2 {
   width: 900px;
   height: 600px;
-  background-color: #333;
+  background-color: #000000;
   border: 4px solid #3498db;
   position: fixed;
   top: 50%;
@@ -486,7 +278,7 @@ footer p {
 .modalSobre {
   width: 750px;
   height: 600px;
-  background-color: #333;
+  background-color: #000000;
   border: 4px solid #3498db;
   position: fixed;
   top: 50%;
@@ -501,7 +293,7 @@ footer p {
 .modalSinopse {
   width: 750px;
   height: 330px;
-  background-color: #333;
+  background-color: #000000;
   border: 4px solid #3498db;
   position: fixed;
   top: 50%;
@@ -517,7 +309,7 @@ footer p {
 .modalSinopse1 {
   width: 750px;
   height: 360px;
-  background-color: #333;
+  background-color: #000000;
   border: 4px solid #3498db;
   position: fixed;
   top: 50%;
@@ -531,9 +323,9 @@ footer p {
 }
 
 .modalSinopse2 {
-  width: 790px;
-  height: 310px;
-  background-color: #333;
+  width: 79rem;
+  height: 22rem;
+  background-color: #000000;
   border: 4px solid #3498db;
   position: fixed;
   top: 50%;
@@ -545,6 +337,188 @@ footer p {
   border-radius: 1.0rem;
   padding: .9rem;
 }
+.modalTodosOsFilmes {
+  width: 900px;
+  height: 600px;
+  background-color: #000000;
+  border: 4px solid #3498db;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  animation: animate;
+  animation-duration: 1000ms;
+  border-radius: 1.0rem;
+}
+.modalTodosOsFilmes1 {
+  width: 900px;
+  height: 600px;
+  background-color: #000000;
+  border: 4px solid #3498db;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  animation: animate;
+  animation-duration: 1000ms;
+  border-radius: 1.0rem;
+}
+.modalTodosOsFilmes2 {
+  width: 900px;
+  height: 600px;
+  background-color: #000000;
+  border: 4px solid #3498db;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  animation: animate;
+  animation-duration: 1000ms;
+  border-radius: 1.0rem;
+}
+.modalTodosOsFilmes3 {
+  width: 900px;
+  height: 600px;
+  background-color: #000000;
+  border: 4px solid #3498db;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  animation: animate;
+  animation-duration: 1000ms;
+  border-radius: 1.0rem;
+}
+.modalTodosOsFilmes4 {
+  width: 900px;
+  height: 600px;
+  background-color: #000000;
+  border: 4px solid #3498db;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  animation: animate;
+  animation-duration: 1000ms;
+  border-radius: 1.0rem;
+}
+.modalTodosOsFilmes5 {
+  width: 900px;
+  height: 600px;
+  background-color: #000000;
+  border: 4px solid #3498db;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  animation: animate;
+  animation-duration: 1000ms;
+  border-radius: 1.0rem;
+}
+.modalTodosOsFilmes6 {
+  width: 900px;
+  height: 600px;
+  background-color: #000000;
+  border: 4px solid #3498db;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  animation: animate;
+  animation-duration: 1000ms;
+  border-radius: 1.0rem;
+}
+.modalTodosOsFilmes7 {
+  width: 900px;
+  height: 600px;
+  background-color: #000000;
+  border: 4px solid #3498db;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  animation: animate;
+  animation-duration: 1000ms;
+  border-radius: 1.0rem;
+}
+.modalTodosOsFilmes8 {
+  width: 900px;
+  height: 600px;
+  background-color: #000000;
+  border: 4px solid #3498db;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  animation: animate;
+  animation-duration: 1000ms;
+  border-radius: 1.0rem;
+}
+.modalTodosOsFilmes9 {
+  width: 900px;
+  height: 600px;
+  background-color: #000000;
+  border: 4px solid #3498db;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  animation: animate;
+  animation-duration: 1000ms;
+  border-radius: 1.0rem;
+}
+.modalTodosOsFilmes10 {
+  width: 900px;
+  height: 600px;
+  background-color: #000000;
+  border: 4px solid #3498db;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  animation: animate;
+  animation-duration: 1000ms;
+  border-radius: 1.0rem;
+}
+.modalTodosOsFilmes11 {
+  width: 900px;
+  height: 600px;
+  background-color: #000000;
+  border: 4px solid #3498db;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  animation: animate;
+  animation-duration: 1000ms;
+  border-radius: 1.0rem;
+}
+.modalTodosOsFilmes12 {
+  width: 900px;
+  height: 600px;
+  background-color: #000000;
+  border: 4px solid #3498db;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  animation: animate;
+  animation-duration: 1000ms;
+  border-radius: 1.0rem;
+}
 
 iframe {
   margin-top: .1rem;
@@ -554,9 +528,9 @@ iframe {
 
 span.fechar {
   position: absolute;
-  top: 10px;
-  right: 20px;
-  font-size: 28px;
+  top: 1.0rem;
+  right: 2.0rem;
+  font-size: 2.8rem;
   font-weight: bold;
   color: #888;
   cursor: pointer;
@@ -576,9 +550,9 @@ span.fechar:hover {
   }
 }
 
-/* 
-@media screen and (min-width: 1280px) {
-  header {  
-      width: 100%;
+
+/* @media screen and (min-width: 1024px) {
+  .filme {
+    flex-wrap: wrap;
   }
 } */
