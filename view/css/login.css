@@ -1,25 +1,23 @@
-/* * {
+ *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-} */
+} 
 
 body {
-    
     background-color: #333;
-   
-
+    font-family: Arial, sans-serif;
 }
 
 :root {
     font-size: 84%;
-}
+} 
 
 header {
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 96.8%;
     background-color: #000000;
     color: #fff;
     padding: 2.0rem;
@@ -34,8 +32,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 99.5%;
-    height: 50.6rem;
+    margin-top: 6%;
+    /* width: 99.5%;
+    height: 58.2rem; */
     background-color: #333;
 
 }
@@ -170,25 +169,58 @@ nav ul li a {
     transition: 0.7s;
     transform: scale(1.04);
 }
-
 footer {
-    width: 98.7%;
-    height: 6rem;
-    margin-top: 0rem;
-    margin-left: 0rem;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: space-between;
+    max-width: 100%;
     background-color: #000000;
     color: #fff;
-    padding: 1.0rem;
+    padding: 4rem;
+    border-radius: 1.0rem;
+    border: .4rem solid #3498db;
+    margin-top: 6.5rem;
+  }
+
+  footer p{
     text-align: center;
+    font-size: 1.4rem;
+  }
 
+ /* footer {
+    /* display: flex;
+    justify-content: center;
+     flex-direction: column; 
+
+     justify-content: space-between;  
+    max-width: 100%;
+    background-color: #000000;
+    color: #fff;
+    padding-top: 7.3rem;
+    border-radius: 1.0rem;
+    border: .4rem solid #3498db;
+    margin-top: 7rem;
+    
+} */
+
+/* footer p{
+   
+    text-align: center; 
+}  */
+
+/* footer{
+    max-width: 100%; 
+    background-color: #000000;
+    border: solid 5px #3498db;
+    
 }
 
-footer p {
-    font-size: 1.5rem;
-}
+footer p{
+
+    text-align: center;
+    font-size: 1.4rem;
+
+} */
 
 /* @media (max-width: 2560px) {
     .screen {
